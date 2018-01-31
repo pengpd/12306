@@ -38,32 +38,21 @@
 #  password: "授权码"
 #  host: "smtp.qq.com"
 
+
 set:
   station_dates:
-    - "2018-02-22"
-    - "2018-02-21"
+    - "2018-01-27"
 
   station_trains:
-    - "G2366"
-#    - "G2365"
-#    - "G1371"
-#    - "G1337"
-#    - "G1377"
-#    - "G1329"
-#    - "G1302"
-#    - "G1372"
-#    - "G1326"
-#    - "K4300"
-#    - "K5226"
-#    - "K7772"
-#    - "G1329"
-#    - "G1359"
-#    - "G1361"
-#    - "G1373"
-#    - "G1363"
-#    - "G4933"
-  from_station: "邵阳"
-  to_station: "上海"
+    - "G4741"
+    - "G2365"
+    - "G1371"
+    - "G1337"
+    - "G1377"
+    - "G1329"
+
+  from_station: "上海"
+  to_station: "邵阳"
   set_type:
     - "二等座"
   is_more_ticket: True
@@ -93,6 +82,8 @@ email_conf:
   username: ""
   password: "xwopwxbkupbqbfgb"
   host: "smtp.qq.com"
+
+is_cdn: 1
 
 
 

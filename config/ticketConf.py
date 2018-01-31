@@ -3,6 +3,7 @@ __author__ = 'MR.wen'
 import os
 import yaml
 
+
 def _get_yaml():
     """
     解析yaml
