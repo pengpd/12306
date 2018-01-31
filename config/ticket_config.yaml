@@ -65,13 +65,13 @@ set:
   from_station: "长沙南"
   to_station: "深圳北"
   set_type:
-    - "二等座"
+    - ""
   is_more_ticket: True
   ticke_peoples:
-    - "邓亚鹏"
+    - ""
   12306count:
-    - uesr: "15273154646"
-    - pwd: "ws5201314"
+    - uesr: ""
+    - pwd: ""
 
 select_refresh_interval: 1
 ticket_black_list_time: 3
@@ -85,10 +85,10 @@ damatu:
 
 email_conf:
   is_email: True
-  email: "425622822@qq.com"
-  notice_email_list: "425622822@qq.com"
-  username: "425622822@qq.com"
-  password: "zqjtshfpdwbecabg"
+  email: "@qq.com"
+  notice_email_list: "@qq.com"
+  username: "@qq.com"
+  password: ""
   host: "smtp.qq.com"
 is_cdn: 1
 
