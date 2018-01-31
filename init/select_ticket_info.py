@@ -692,6 +692,16 @@ class select:
         else:
             pass
 
+    def loop_check_time(self):
+        """
+        每隔五秒检查一遍
+        """
+        while 1:
+            if time.strftime('%H:%M:%S', time.localtime(time.time())) > "06:00:00":
+                break;
+            print('thread sleep 5 s')
+            time.sleep(5)
+
     def main(self):
         self.cdn_certification()
         self.set_cdn()
@@ -709,7 +719,8 @@ class select:
                 time.sleep(self.select_refresh_interval)
                 if time.strftime('%H:%M:%S', time.localtime(time.time())) > "23:00:00":
                     print u"12306休息时间，本程序自动停止,明天早上6点将自动运行"
-                    time.sleep(60 * 60 * 7)
+                    # time.sleep(60 * 60 * 7)
+                    self.loop_check_time()
                     self.call_login()
                 start_time = datetime.datetime.now()
                 self.submitOrderRequestImplement(from_station, to_station)

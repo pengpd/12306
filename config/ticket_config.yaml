@@ -38,32 +38,40 @@
 #  password: "授权码"
 #  host: "smtp.qq.com"
 
-
 set:
   station_dates:
-    - "2018-01-27"
+    - "2018-02-22"
+    - "2018-02-22"
 
   station_trains:
-    - "G4741"
-    - "G2365"
-    - "G1371"
-    - "G1337"
-    - "G1377"
-    - "G1329"
-
-  from_station: "上海"
-  to_station: "邵阳"
+    - "G6025"
+    - "G1019"
+    - "G6033"
+    - "G6027"
+    - "G1013"
+    - "G79"
+#    - "G1302"
+#    - "G1372"
+#    - "G1326"
+#    - "K4300"
+#    - "K5226"
+#    - "K7772"
+#    - "G1329"
+#    - "G1359"
+#    - "G1361"
+#    - "G1373"
+#    - "G1363"
+#    - "G4933"
+  from_station: "长沙南"
+  to_station: "深圳北"
   set_type:
     - "二等座"
   is_more_ticket: True
   ticke_peoples:
-    - "文贤平"
-#    - "彭淑杰"
+    - "邓亚鹏"
   12306count:
-#    - uesr: ""
-#    - pwd: "apple1995"
-    - uesr: "@qq.com"
-    - pwd: "QWERTY"
+    - uesr: "15273154646"
+    - pwd: "ws5201314"
 
 select_refresh_interval: 1
 ticket_black_list_time: 3
@@ -72,19 +80,17 @@ aotu_code_type: 2
 #enable_proxy: False
 
 damatu:
-  uesr: ""
-  pwd: "qazWSX1995"
+  uesr: "pengpd"
+  pwd: "qazxsw950"
 
 email_conf:
   is_email: True
-  email: "@qq.com "
-  notice_email_list: "61995120@qq.com"
-  username: ""
-  password: "xwopwxbkupbqbfgb"
+  email: "425622822@qq.com"
+  notice_email_list: "425622822@qq.com"
+  username: "425622822@qq.com"
+  password: "zqjtshfpdwbecabg"
   host: "smtp.qq.com"
-
 is_cdn: 1
-
 
 
 
